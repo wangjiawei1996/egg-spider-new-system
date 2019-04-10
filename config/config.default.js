@@ -27,7 +27,7 @@ module.exports = appInfo => {
   const userConfig = {
     // myAppName: 'egg',
   };
-
+  config.api = 'http://www.phonegap100.com/';
   return {
     ...config,
     ...userConfig,
