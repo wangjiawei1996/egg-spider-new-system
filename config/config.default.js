@@ -16,7 +16,13 @@ module.exports = appInfo => {
   config.keys = appInfo.name + '_1554778895240_3986';
 
   // add your middleware config here
-  config.middleware = [];
+  config.middleware = ['printdate','forbidip'];
+  config.printdate = {
+    aaa:'aaaaa'
+  }
+  config.forbidip = {
+    forbidips:'aaaaa'
+  }
   config.view = {
     mapping: {
       '.html': 'ejs',
